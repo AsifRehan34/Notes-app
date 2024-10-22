@@ -1,0 +1,7 @@
+services:
+  web:
+    image: asifrehan12/my-notes-app:latest 
+    ports:
+      - "8000:5000"
+  redis:
+    image: "redis:alpine"
